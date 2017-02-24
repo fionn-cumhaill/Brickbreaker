@@ -1,0 +1,23 @@
+README
+
+The basic controls are the same as those mentioned in the question PDF. Slight changes and added functionality are mentioned below.
+
+Black boxes are replaced by blue boxes, and blue boxes and corresponding bucket are replaced by green ones in accordance with an appealing colour scheme.
+
+The code file is named brickbreaker.cpp.
+The executable is named BrickBreaker.
+The command "make; ./BrickBreaker" may be executed in the source directory to run the game.
+
+Extra Features :
+
+1. If you click anywhere in the game area except the buckets and the cannon, then dragging the mouse cursor will rotate the cannon accordingly.
+2. Mirrors are randomly generated and multiple reflections of laser are taken care of accordingly.
+3. A battery on top that recharges automatically. This indicates when a laser is ready to shoot. Battery gets discharged as laser is used.
+4. A seven-segment display score board which constantly displays current score (3 Digits). This occupies the right half of the window, and is unaffected by the zoom and pan operations as they only affect the game area (use of multiple viewports and scissor functionality).
+5. Music plays in the background if libmpg123-dev and libao-dev are installed. Since the server doesn't support these libraries, this part of the code is commented.
+
+Features not working as expected :
+
+1. All basic controls as mentioned in the assignment pdf are used except the following :-
+
+	To pan the screen, you have to first click the right mouse button and then use arrow keys to pan the area.
